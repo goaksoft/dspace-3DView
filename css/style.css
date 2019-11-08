@@ -1,0 +1,62 @@
+              
+/* 用three来搞定画布的位置
+*/
+     #three{
+			margin: 0;
+			width: 800px;
+			height:800px;
+			position: relative;    
+		  display: block;
+		   }
+		#percent {
+			position:absolute;
+			width: 400px;
+			height: 0px;
+			color: bisque;
+			text-align: left;
+			left:130px;
+			border: 1px;
+		}
+		.btn{
+			width: 110px;
+			background-color: sandybrown;
+			height: 300px;
+			position: absolute;
+			top: 20px;
+			left:10px;
+		}
+		.btn1{
+			width: 100px;
+			height: 30px;
+			margin-bottom: 5px;
+			line-height: 30px;
+			text-align: center;
+			border: 1px solid black;
+			border-radius: 10px;
+			background-color: bisque;
+		 }
+		#tupian{
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			right: 5px;
+			top: 5px;
+			border: 1px black solid;
+		}
+      
+    #photo{
+      width: 30px;
+      height: 30px;
+      background-color: white;
+    }
+    #AreaId{
+    	width:100px;
+    	height:30px;
+    	position:absolute;
+    	font-size:20px ;
+    	font-style: normal;
+    	left:45%;
+    	top: 5px;
+    	border: 1px black solid;
+    	background-color: bisque;
+    }
